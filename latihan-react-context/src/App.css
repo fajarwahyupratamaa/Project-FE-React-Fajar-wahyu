@@ -1,0 +1,24 @@
+#root {
+  background-color: var(--background-color);
+  color: var(--text);
+  height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.dark-mode {
+  --text: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+  --button-background-color: #1a1a1a;
+}
+
+.light-mode {
+  --text: #213547;
+  --background-color: #ffffff;
+  --button-background-color: #f9f9f9;
+}
+
+.card {
+  padding: 2em;
+}

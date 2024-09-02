@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav div {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.topnav div ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.topnav div button {
+  padding: 8px 2rem;
+  cursor: pointer;
+  background-color: rgb(107, 178, 0);
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.topnav div button:hover {
+  background-color: rgb(80, 133, 1);
+}
+
+.topnav div ul li {
+  padding: 10px;
+}
+
+.topnav div ul a li:hover {
+  background-color: rgb(237, 144, 144);
+  cursor: pointer;
+}
+
+.topnav div ul a {
+  text-decoration: none;
+}
+
+.topnav div ul a li {
+  color: #fff;
+}
+
+.table-container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-table tr:hover {
+  background-color: #ddd;
+}
+
+.user-table button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-table button:hover {
+  background-color: #45a049;
+}
+.dashboard nav {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard nav ul {
+  display: flex;
+  background-color: #45a049;
+  align-items: center;
+  padding: 10px;
+  gap: 1rem;
+  list-style: none;
+}
+
+.dashboard nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
