@@ -1,0 +1,32 @@
+#root {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.search {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.search input {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  width: 60vw;
+}
+
+.container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin-top: 2rem;
+}
+
+.container img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+  width: 100%;
+}
