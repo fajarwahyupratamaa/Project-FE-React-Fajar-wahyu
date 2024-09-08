@@ -1,0 +1,31 @@
+.about-container {
+    margin-top:3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-description h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-description p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

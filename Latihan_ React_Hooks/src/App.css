@@ -1,0 +1,66 @@
+#root {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.header {
+  margin-top:5rem;
+  margin-bottom: 2rem;
+}
+.search {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.search input {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  width: 60vw;
+}
+
+.container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin-top: 2rem;
+}
+
+.container img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+  width: 100%;
+}
+.create-product {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem; /* Menambahkan ruang di atas tombol */
+}
+
+.create-product:hover {
+  background-color: #218838;
+}
+
+.add-product {
+  margin-top:5rem;
+  padding: 20px;
+}
+
+.add-product form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-product label {
+  margin-bottom: 10px;
+}
+
+.add-product input {
+  margin-bottom: 10px;
+}

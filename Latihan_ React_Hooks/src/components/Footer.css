@@ -1,0 +1,12 @@
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+  left: 0; /* Pastikan dimulai dari tepi kiri layar */
+  box-sizing: border-box; /* Termasuk padding dalam lebar total */
+  margin-top: 2rem;
+}
+

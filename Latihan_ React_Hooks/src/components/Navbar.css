@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+  position: fixed; /* Membuat navbar tetap berada di posisi tetap */
+  top: 0; /* Menempatkan navbar di bagian atas halaman */
+  width: 100%; /* Memastikan navbar memenuhi lebar layar */
+  left: 0; /* Memastikan navbar dimulai dari tepi kiri layar */
+  z-index: 1000; /* Memastikan navbar tetap di atas konten lainnya */
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
